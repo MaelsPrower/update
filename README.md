@@ -1,1 +1,1 @@
-# update
+sudo bash && apt-get install qemu-guest-agent && systemctl start qemu-guest-agent && systemctl enable qemu-guest-agent && apt update && apt upgrade && systemctl stop ufw && systemctl disable ufw && apt-get install xrdp && apt-get install xfce4
