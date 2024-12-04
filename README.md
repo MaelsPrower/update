@@ -1,6 +1,6 @@
 #base
 
-apt update && apt upgrade -y && apt-get install qemu-guest-agent -y && apt-get install xfce4 -y && apt-get install xrdp -y && apt install net-tools -y && systemctl start qemu-guest-agent && systemctl enable qemu-guest-agent && systemctl stop ufw && systemctl disable ufw && apt update && apt upgrade -y
+apt update && apt upgrade -y && apt install qemu-guest-agent -y && apt install xfce4 -y && apt install xrdp -y && apt install net-tools -y && systemctl start qemu-guest-agent && systemctl enable qemu-guest-agent && systemctl stop ufw && systemctl disable ufw && apt update && apt upgrade -y
 
 #git+docker
 
